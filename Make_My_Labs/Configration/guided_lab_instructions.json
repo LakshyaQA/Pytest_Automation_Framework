@@ -1,0 +1,20 @@
+[
+  {
+    "step_no": "1",
+    "type": "TITLE",
+    "description": "Setting Up Your Environment"
+  },
+  {
+    "type": "PLAIN_TEXT",
+    "description": "First, ensure your environment is set up correctly. This includes having all necessary software installed and configured. Check that you have the following:\n\n- Software A: Ensure it's installed and up-to-date.\n- Software B: Verify configuration settings.\n- Necessary Files: Gather all required files and data."
+  },
+  {
+    "step_no": "2",
+    "type": "TITLE",
+    "description": "Initial Configuration"
+  },
+  {
+    "type": "PLAIN_TEXT",
+    "description": "Next, perform the initial configuration steps:\n\n- Configure Software A: Open the settings menu and adjust the parameters according to your project's needs.\n- Load Data into Software B: Import your data files into the software, ensuring all data is correctly formatted and accessible."
+  }
+]

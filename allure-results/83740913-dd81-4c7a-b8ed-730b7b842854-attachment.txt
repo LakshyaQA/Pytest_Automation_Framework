@@ -1,0 +1,26 @@
+[32mINFO    [0m automation_logger:conftest.py:59 Running one-time setUp for Aeye Portal
+[32mINFO    [0m automation_logger:decorators.py:11 Calling method '__init__' of class 'LoginPage'
+[32mINFO    [0m automation_logger:decorators.py:11 Calling method 'test_login_with_invalid_usrname_pwd' of class 'TestLogin'
+[32mINFO    [0m automation_logger:test_login.py:36 ************  Test Case Started : Portal Login  **********
+[32mINFO    [0m automation_logger:decorators.py:11 Calling method 'login' of class 'LoginPage'
+[32mINFO    [0m automation_logger:LoginPage.py:40 **********  Project : Aeye  *************
+[32mINFO    [0m automation_logger:selenium_drivers.py:226 Waiting up to 5s for element 'username' to be visible
+[33mWARNING [0m automation_logger:selenium_drivers.py:237 Element 'username' not visible after 5 seconds.
+[32mINFO    [0m automation_logger:decorators.py:11 Calling method 'enterUsername' of class 'LoginPage'
+[32mINFO    [0m automation_logger:selenium_drivers.py:120 Element found with locator: username and locatorType: id
+[32mINFO    [0m automation_logger:selenium_drivers.py:152 Sent data on element with locator: username locatorType: id Data : mainnahidungaemail@address.com
+[32mINFO    [0m automation_logger:selenium_drivers.py:226 Waiting up to 5s for element 'password' to be visible
+[33mWARNING [0m automation_logger:selenium_drivers.py:237 Element 'password' not visible after 5 seconds.
+[32mINFO    [0m automation_logger:decorators.py:11 Calling method 'enterPassword' of class 'LoginPage'
+[32mINFO    [0m automation_logger:selenium_drivers.py:120 Element found with locator: password and locatorType: id
+[32mINFO    [0m automation_logger:selenium_drivers.py:152 Sent data on element with locator: password locatorType: id Data : 123456
+[32mINFO    [0m automation_logger:selenium_drivers.py:209 Waiting up to 5s for element '//button[contains(text(),'Login')]' to be clickable
+[32mINFO    [0m automation_logger:decorators.py:11 Calling method 'clickLoginButton' of class 'LoginPage'
+[32mINFO    [0m automation_logger:selenium_drivers.py:120 Element found with locator: //button[contains(text(),'Login')] and locatorType: xpath
+[32mINFO    [0m automation_logger:selenium_drivers.py:142 Clicked on element with locator: //button[contains(text(),'Login')] locatorType: xpath
+[32mINFO    [0m automation_logger:selenium_drivers.py:226 Waiting up to 5s for element 'ico_settings' to be visible
+[33mWARNING [0m automation_logger:selenium_drivers.py:237 Element 'ico_settings' not visible after 5 seconds.
+[32mINFO    [0m automation_logger:decorators.py:11 Calling method 'login_verification' of class 'LoginPage'
+[32mINFO    [0m automation_logger:selenium_drivers.py:561 Verifying presence of element 'ico_settings' with locator type 'id' for 'LoginPage'
+[31m[1mERROR   [0m automation_logger:selenium_drivers.py:569 Test case failed: element 'ico_settings' not present after 10s for 'LoginPage'
+[32mINFO    [0m automation_logger:conftest.py:65 Driver quit successfully

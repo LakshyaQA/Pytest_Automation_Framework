@@ -1,0 +1,38 @@
+pipeline {
+    agent {
+
+        label 'qa'
+           }
+
+    stages {
+        stage('QA-Seleniumtest') {
+            steps {
+                script {
+                    bat '''
+                    py -m pip install -r requirement.txt
+                    py -m pytest ReCrewt/TestCases/recrewt_sanity.py --alluredir=allureReport
+                    '''
+                }
+            }
+            post {
+            success {
+            allure includeProperties: false, jdk: '', results: [[path: 'allureReport']]
+            office365ConnectorSend webhookUrl: "https://choosemymentor.webhook.office.com/webhookb2/e4877c9d-1b9d-4771-a63c-61df10f61935@7540734b-e567-46c3-9ad3-ec9fb9e50140/JenkinsCI/e435d4c94d7c4907ae6bc2cdb111b445/f17e5dc5-6564-4380-b76f-50855e889143",
+                factDefinitions: [[name: "build_status", template: "${currentBuild.currentResult}: Job ${env.JOB_NAME} build ${env.BUILD_NUMBER}\n Download allure report at: ${env.BUILD_URL}/artifact/allure-report.zip"]]
+        }
+            failure {
+        
+            office365ConnectorSend webhookUrl: "https://choosemymentor.webhook.office.com/webhookb2/e4877c9d-1b9d-4771-a63c-61df10f61935@7540734b-e567-46c3-9ad3-ec9fb9e50140/JenkinsCI/e435d4c94d7c4907ae6bc2cdb111b445/f17e5dc5-6564-4380-b76f-50855e889143",
+              factDefinitions: [[name: "build_status", template: "${currentBuild.currentResult}: Job ${env.JOB_NAME} build ${env.BUILD_NUMBER}\n The build ${env.BUILD_NUMBER} is failed please goto the URL and check the error: ${env.BUILD_URL}/artifact/allure-report.zip"]]
+            allure includeProperties: false, jdk: '', results: [[path: 'allureReport']]      
+                                   
+                         }
+                    }
+        }
+    }
+        post {
+          always {
+            cleanWs() // Clean workspace at the end, regardless of pipeline status
+        }
+    }
+}

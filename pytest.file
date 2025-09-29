@@ -1,0 +1,1 @@
+pytest Techademy_One/Testcases/sanity_test_suite.py --alluredir=allureReport

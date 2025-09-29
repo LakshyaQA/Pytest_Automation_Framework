@@ -1,0 +1,132 @@
+09/29/25 01:45:30 PM: INFO: Using browser: firefox
+09/29/25 01:45:30 PM: INFO: Running one-time setUp for Aeye Portal
+09/29/25 01:45:41 PM: INFO: Calling method '__init__' of class 'LoginPage'
+09/29/25 01:45:41 PM: INFO: Calling method 'test_verify_valid_Login' of class 'TestLogin'
+09/29/25 01:45:41 PM: INFO: ************  Test Case Started : Portal Login  **********
+09/29/25 01:45:41 PM: INFO: Calling method 'login' of class 'LoginPage'
+09/29/25 01:45:41 PM: INFO: **********  Project : Aeye  *************
+09/29/25 01:45:41 PM: INFO: Waiting up to 5s for element 'username' to be visible
+09/29/25 01:45:49 PM: WARNING: Element 'username' not visible after 5 seconds.
+09/29/25 01:45:49 PM: INFO: Calling method 'enterUsername' of class 'LoginPage'
+09/29/25 01:45:49 PM: INFO: Element found with locator: username and locatorType: id
+09/29/25 01:45:50 PM: INFO: [OK] Sent data to element: username (type: id) - Data: lakshyasharmaqa@proton.me
+09/29/25 01:45:50 PM: INFO: Waiting up to 5s for element 'password' to be visible
+09/29/25 01:45:58 PM: WARNING: Element 'password' not visible after 5 seconds.
+09/29/25 01:45:58 PM: INFO: Calling method 'enterPassword' of class 'LoginPage'
+09/29/25 01:45:58 PM: INFO: Element found with locator: password and locatorType: id
+09/29/25 01:45:58 PM: INFO: [OK] Sent data to element: password (type: id) - Data: Tester@1234
+09/29/25 01:45:58 PM: INFO: Waiting up to 5s for element '//button[contains(text(),'Login')]' to be clickable
+09/29/25 01:45:58 PM: INFO: Calling method 'clickLoginButton' of class 'LoginPage'
+09/29/25 01:45:58 PM: INFO: Waiting up to 5s for element '//button[contains(text(),'Login')]' to be clickable
+09/29/25 01:45:58 PM: INFO: [OK] Clicked element: //button[contains(text(),'Login')] (type: xpath)
+09/29/25 01:45:58 PM: INFO: lakshyasharmaqa@proton.me logged in successfully
+09/29/25 01:46:01 PM: INFO: Driver quit successfully
+09/29/25 01:46:01 PM: INFO: Running one-time setUp for Aeye Portal
+09/29/25 01:46:15 PM: INFO: Calling method '__init__' of class 'LoginPage'
+09/29/25 01:46:15 PM: INFO: Calling method 'test_login_with_invalid_usrname_pwd' of class 'TestLogin'
+09/29/25 01:46:15 PM: INFO: ************  Test Case Started : Portal Login  **********
+09/29/25 01:46:15 PM: INFO: Calling method 'login' of class 'LoginPage'
+09/29/25 01:46:15 PM: INFO: **********  Project : Aeye  *************
+09/29/25 01:46:15 PM: INFO: Waiting up to 5s for element 'username' to be visible
+09/29/25 01:46:24 PM: WARNING: Element 'username' not visible after 5 seconds.
+09/29/25 01:46:24 PM: INFO: Calling method 'enterUsername' of class 'LoginPage'
+09/29/25 01:46:24 PM: INFO: Element found with locator: username and locatorType: id
+09/29/25 01:46:24 PM: INFO: [OK] Sent data to element: username (type: id) - Data: mainnahidungaemail@address.com
+09/29/25 01:46:24 PM: INFO: Waiting up to 5s for element 'password' to be visible
+09/29/25 01:46:32 PM: WARNING: Element 'password' not visible after 5 seconds.
+09/29/25 01:46:32 PM: INFO: Calling method 'enterPassword' of class 'LoginPage'
+09/29/25 01:46:32 PM: INFO: Element found with locator: password and locatorType: id
+09/29/25 01:46:32 PM: INFO: [OK] Sent data to element: password (type: id) - Data: 123456
+09/29/25 01:46:32 PM: INFO: Waiting up to 5s for element '//button[contains(text(),'Login')]' to be clickable
+09/29/25 01:46:32 PM: INFO: Calling method 'clickLoginButton' of class 'LoginPage'
+09/29/25 01:46:32 PM: INFO: Waiting up to 5s for element '//button[contains(text(),'Login')]' to be clickable
+09/29/25 01:46:32 PM: INFO: [OK] Clicked element: //button[contains(text(),'Login')] (type: xpath)
+09/29/25 01:46:32 PM: INFO: mainnahidungaemail@address.com logged in successfully
+09/29/25 01:46:32 PM: INFO: Calling method 'verify_invalid_login' of class 'LoginPage'
+09/29/25 01:46:33 PM: INFO: Element found with locator: //div[contains(text(),'User not found')] and locatorType: xpath
+09/29/25 01:46:33 PM: INFO: Getting text on element :: 
+09/29/25 01:46:36 PM: INFO: Driver quit successfully
+09/29/25 01:46:36 PM: INFO: Running one-time setUp for Aeye Portal
+09/29/25 01:46:46 PM: INFO: Calling method '__init__' of class 'LoginPage'
+09/29/25 01:46:46 PM: INFO: Calling method 'test_login_with_invalid_email' of class 'TestLogin'
+09/29/25 01:46:46 PM: INFO: ************  Test Case Started : Portal Login-Invalid Email  **********
+09/29/25 01:46:46 PM: INFO: Calling method 'login_invalid_email' of class 'LoginPage'
+09/29/25 01:46:46 PM: INFO: **********  Project : Aeye  *************
+09/29/25 01:46:46 PM: INFO: Waiting up to 5s for element 'username' to be clickable
+09/29/25 01:46:54 PM: WARNING: Element 'username' not clickable after 5 seconds.
+09/29/25 01:46:54 PM: INFO: Calling method 'enterUsername' of class 'LoginPage'
+09/29/25 01:46:54 PM: INFO: Element found with locator: username and locatorType: id
+09/29/25 01:46:54 PM: INFO: [OK] Sent data to element: username (type: id) - Data: ab@33.
+09/29/25 01:46:54 PM: INFO: Calling method 'verify_invalid_email' of class 'LoginPage'
+09/29/25 01:46:54 PM: INFO: Element found with locator: //p[contains(text(),'Invalid email')] and locatorType: xpath
+09/29/25 01:46:54 PM: INFO: Getting text on element :: 
+09/29/25 01:46:54 PM: INFO: Calling method 'verify_invalid_email' of class 'LoginPage'
+09/29/25 01:46:54 PM: INFO: Element found with locator: //p[contains(text(),'Invalid email')] and locatorType: xpath
+09/29/25 01:46:54 PM: INFO: Getting text on element :: 
+09/29/25 01:46:58 PM: INFO: Driver quit successfully
+09/29/25 01:46:58 PM: INFO: Running one-time setUp for Aeye Portal
+09/29/25 01:47:07 PM: INFO: Calling method '__init__' of class 'LoginPage'
+09/29/25 01:47:07 PM: INFO: Calling method 'test_login_with_invalid_password' of class 'TestLogin'
+09/29/25 01:47:07 PM: INFO: ************  Test Case Started : Portal Login-Invalid Password  **********
+09/29/25 01:47:07 PM: INFO: Calling method 'login_invalid_password' of class 'LoginPage'
+09/29/25 01:47:07 PM: INFO: **********  Project : Aeye  *************
+09/29/25 01:47:07 PM: INFO: Waiting up to 5s for element 'password' to be clickable
+09/29/25 01:47:16 PM: WARNING: Element 'password' not clickable after 5 seconds.
+09/29/25 01:47:16 PM: INFO: Calling method 'enterPassword' of class 'LoginPage'
+09/29/25 01:47:16 PM: INFO: Element found with locator: password and locatorType: id
+09/29/25 01:47:16 PM: INFO: [OK] Sent data to element: password (type: id) - Data: abc@123
+09/29/25 01:47:16 PM: INFO: Waiting up to 5s for element 'password' to be clickable
+09/29/25 01:47:24 PM: WARNING: Element 'password' not clickable after 5 seconds.
+09/29/25 01:47:24 PM: INFO: Element found with locator: password and locatorType: id
+09/29/25 01:47:24 PM: INFO: Input field cleared successfully.
+09/29/25 01:47:24 PM: INFO: Calling method 'verify_invalid_password' of class 'LoginPage'
+09/29/25 01:47:24 PM: INFO: Element found with locator: //p[contains(text(),'Invalid password')] and locatorType: xpath
+09/29/25 01:47:24 PM: INFO: Getting text on element :: 
+09/29/25 01:47:24 PM: INFO: Calling method 'verify_invalid_password' of class 'LoginPage'
+09/29/25 01:47:24 PM: INFO: Element found with locator: //p[contains(text(),'Invalid password')] and locatorType: xpath
+09/29/25 01:47:24 PM: INFO: Getting text on element :: 
+09/29/25 01:47:27 PM: INFO: Driver quit successfully
+09/29/25 01:47:27 PM: INFO: Running one-time setUp for Aeye Portal
+09/29/25 01:47:37 PM: INFO: Calling method '__init__' of class 'LoginPage'
+09/29/25 01:47:37 PM: INFO: Calling method 'test_forgot_Password' of class 'TestLogin'
+09/29/25 01:47:37 PM: INFO: ************  Test Case Started : Forgot Password  **********
+09/29/25 01:47:37 PM: INFO: Calling method 'forgot_password' of class 'LoginPage'
+09/29/25 01:47:37 PM: INFO: **********  Project : Aeye  *************
+09/29/25 01:47:37 PM: INFO: Calling method 'clickForgotPassword' of class 'LoginPage'
+09/29/25 01:47:37 PM: INFO: Waiting up to 5s for element '//button[contains(text(),'Forgot Password')]' to be clickable
+09/29/25 01:47:37 PM: INFO: [OK] Clicked element: //button[contains(text(),'Forgot Password')] (type: xpath)
+09/29/25 01:47:37 PM: INFO: Calling method 'forgot_password_page_verify' of class 'LoginPage'
+09/29/25 01:47:37 PM: INFO: Element found with locator: //h1[contains(text(),'Forgot Password')] and locatorType: xpath
+09/29/25 01:47:37 PM: INFO: Getting text on element :: 
+09/29/25 01:47:40 PM: INFO: Driver quit successfully
+09/29/25 01:47:40 PM: INFO: Running one-time setUp for Aeye Portal
+09/29/25 01:47:51 PM: INFO: Calling method '__init__' of class 'LoginPage'
+09/29/25 01:47:51 PM: INFO: Calling method 'test_verify_Logout' of class 'TestLogin'
+09/29/25 01:47:51 PM: INFO: ************  Test Case Started : Portal Logout  **********
+09/29/25 01:47:51 PM: INFO: Calling method 'login' of class 'LoginPage'
+09/29/25 01:47:51 PM: INFO: **********  Project : Aeye  *************
+09/29/25 01:47:51 PM: INFO: Waiting up to 5s for element 'username' to be visible
+09/29/25 01:47:59 PM: WARNING: Element 'username' not visible after 5 seconds.
+09/29/25 01:47:59 PM: INFO: Calling method 'enterUsername' of class 'LoginPage'
+09/29/25 01:47:59 PM: INFO: Element found with locator: username and locatorType: id
+09/29/25 01:48:00 PM: INFO: [OK] Sent data to element: username (type: id) - Data: lakshyasharmaqa@proton.me
+09/29/25 01:48:00 PM: INFO: Waiting up to 5s for element 'password' to be visible
+09/29/25 01:48:08 PM: WARNING: Element 'password' not visible after 5 seconds.
+09/29/25 01:48:08 PM: INFO: Calling method 'enterPassword' of class 'LoginPage'
+09/29/25 01:48:08 PM: INFO: Element found with locator: password and locatorType: id
+09/29/25 01:48:08 PM: INFO: [OK] Sent data to element: password (type: id) - Data: Tester@1234
+09/29/25 01:48:08 PM: INFO: Waiting up to 5s for element '//button[contains(text(),'Login')]' to be clickable
+09/29/25 01:48:08 PM: INFO: Calling method 'clickLoginButton' of class 'LoginPage'
+09/29/25 01:48:08 PM: INFO: Waiting up to 5s for element '//button[contains(text(),'Login')]' to be clickable
+09/29/25 01:48:08 PM: INFO: [OK] Clicked element: //button[contains(text(),'Login')] (type: xpath)
+09/29/25 01:48:08 PM: INFO: lakshyasharmaqa@proton.me logged in successfully
+09/29/25 01:48:08 PM: INFO: Calling method 'logout' of class 'LoginPage'
+09/29/25 01:48:08 PM: INFO: **********  Project : Aeye  *************
+09/29/25 01:48:08 PM: INFO: Calling method 'logout_click' of class 'LoginPage'
+09/29/25 01:48:08 PM: INFO: Waiting up to 5s for element '//div[@class='qa-user-logout-button MuiBox-root css-113lela']' to be clickable
+09/29/25 01:48:09 PM: INFO: Waiting up to 5s for element '//div[@class='qa-user-logout-button MuiBox-root css-113lela']' to be clickable
+09/29/25 01:48:09 PM: INFO: [OK] Clicked element: //div[@class='qa-user-logout-button MuiBox-root css-113lela'] (type: xpath)
+09/29/25 01:48:09 PM: INFO: Calling method 'verify_logout' of class 'LoginPage'
+09/29/25 01:48:09 PM: INFO: Element found with locator: //div[contains(text(),'Logged out successfully')] and locatorType: xpath
+09/29/25 01:48:09 PM: INFO: Getting text on element :: 
+09/29/25 01:48:13 PM: INFO: Driver quit successfully

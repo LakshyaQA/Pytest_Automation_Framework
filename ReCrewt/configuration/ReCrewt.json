@@ -1,0 +1,94 @@
+{
+  "PostAJob": [
+    {
+      "JobTitle": "QA-Automation Script",
+      "Location": "Pune",
+      "Description": "We are seeking a talented QA automation engineer to design testing procedures for our software applications. In this role, will be responsible for analyzing the functionality of applications and designing automated tests to validate their performance.",
+      "JobType": "Hybrid",
+      "Department": "IT",
+      "NoOfPosition": 5,
+      "MinExperience": 3,
+      "MaxExperience": 7,
+      "Education": "BE",
+      "TechnicalSkills": "Java",
+      "NonTechnicalSkills": "Communication",
+      "MinCompensation": 5,
+      "MaxCompensation": 10,
+      "Other": "Other",
+      "RequestedBy": "recrewtinterviewer test",
+      "EndDate": "30/05/2024",
+      "detail_description" : "Your role as a QA Automation Engineer is to write scripts and create automation environments for repeated tests. Using different automation tools, you will design, test, and deploy effective test automation solutions. Your goal is to automate as much of the testing effort as possible with a minimum set of code. Skills Required:• Technical Skills – Require programming skills to write computer code and scripts in common computer languages, such as Javascript, Python • Suggest /Make framework enhancements to accommodate the scripting needs • Analytical skills – Analytically examine bug reports, prioritize necessary tests, and streamline application functions through automated testing processes • Attention to detail – Being detail oriented is required as you will test web and mobile applications to find ways to improve them and isolate problems • Communication skills – Strong verbal communication skills to effectively collaborate with the engineering team and create testing plans and written reports showing errors Tools: • Automation testing tools: Selenium, Node.js • Mobile automation testing tools for Android, iOS, and cross-platform ones • API testing tools that require strong coding skills to create tests: REST Assured, RestSharp,jMeter, etc.;• Continuous Integration tools - Jenkins, Bit bucket, Github• JIRA – Defect tracking and task creation tool Responsibilities: • Write, design, and execute automated tests by creating scripts that run testing functions automatically; • Maximize test coverage for the most critical features of the system; • Determine the priority for test scenarios and create execution plans to implement these scenarios; • Write documentation for automated processes including test plans, test procedures, and test cases; • Build test automation frameworks; • Log and document bugs in the tracking system; • Set up Continuous Integration."
+
+    }
+  ],
+
+  "DetailDescription" : [
+    {
+      "details" : "Your role as a QA Automation Engineer is to write scripts and create automation environments for repeated tests. Using different automation tools, you will design, test, and deploy effective test automation solutions. Your goal is to automate as much of the testing effort as possible with a minimum set of code. Skills Required:• Technical Skills – Require programming skills to write computer code and scripts in common computer languages, such as Javascript, Python • Suggest /Make framework enhancements to accommodate the scripting needs • Analytical skills – Analytically examine bug reports, prioritize necessary tests, and streamline application functions through automated testing processes • Attention to detail – Being detail oriented is required as you will test web and mobile applications to find ways to improve them and isolate problems • Communication skills – Strong verbal communication skills to effectively collaborate with the engineering team and create testing plans and written reports showing errors Tools: • Automation testing tools: Selenium, Node.js • Mobile automation testing tools for Android, iOS, and cross-platform ones • API testing tools that require strong coding skills to create tests: REST Assured, RestSharp,jMeter, etc.;• Continuous Integration tools - Jenkins, Bit bucket, Github• JIRA – Defect tracking and task creation tool Responsibilities: • Write, design, and execute automated tests by creating scripts that run testing functions automatically; • Maximize test coverage for the most critical features of the system; • Determine the priority for test scenarios and create execution plans to implement these scenarios; • Write documentation for automated processes including test plans, test procedures, and test cases; • Build test automation frameworks; • Log and document bugs in the tracking system; • Set up Continuous Integration."
+    }
+  ],
+  "CandidateDetails": [
+    {
+       "first_name" : "Chetan",
+       "last_name" : "Ugale Script1",
+       "gender" : "Male",
+       "dob" : "28/04/1998",
+       "location" : "Pune",
+       "email" : "chetan.ugale@techadamy.com",
+       "mobile" : "7972605582",
+       "skills" : "Java, Python, Testing, Automation",
+       "role" : "SR QA",
+       "year" : "3",
+       "month" : "6"
+    }
+  ],
+  "EmailID": [
+    {
+      "email_id" : "hr.recrewt@gmail.com"
+    }
+  ],
+  "JobPostings": [
+    {
+      "date_from" : "1/4/2024",
+      "date_to" : "7/4/2024",
+      "status" : "Active",
+      "email_id" : "hr.recrewt@gmail.com"
+    },
+    {
+      "date_from" : "1/4/2024",
+      "date_to" : "7/4/2024",
+      "status" : "Draft",
+      "email_id" : "hr.recrewt@gmail.com"
+    },
+    {
+      "date_from" : "1/4/2024",
+      "date_to" : "7/4/2024",
+      "status" : "On Hold",
+      "email_id" : "hr.recrewt@gmail.com"
+    }
+  ],
+  "EmployeeDetails": [
+    {
+       "location" : "Mumbai",
+       "designation" : "Team Lead"
+    }
+  ],
+  "Comment": [
+    {
+      "comment" : "Job is Approved using automation script"
+    }
+
+],
+
+  "ShortlistData": [
+    {
+       "skills" : "Java",
+       "keyword" : "",
+       "min_exp" : "",
+       "max_exp" : "",
+       "location" : ""
+    }
+
+
+  ]
+}
